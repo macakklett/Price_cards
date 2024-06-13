@@ -3,7 +3,7 @@
 
 [Site Link](https://github.com/macakklett/Startup_website)
 
-Layout supports mobile (up-to-400) and desktop (up-to-1400) versions
+Layout supports only desktop (up-to-1200) versions
 
 The tech stack is:
 <ul>

@@ -97,20 +97,20 @@ ol {
   line-height: 18px;
   text-align: center;
 }
-.price-card__list {
+.price-card__options-list {
   margin-bottom: 39px;
 }
-.price-card__list_item {
+.price-card__options-list_item {
   display: flex;
   align-items: center;
   gap: 22px;
   width: 380px;
   height: 50px;
 }
-.price-card__list_item img {
+.price-card__options-list_item img {
   margin: 0 22px;
 }
-.price-card__list_item:nth-of-type(odd) {
+.price-card__options-list_item:nth-of-type(odd) {
   background-color: #2a3438;
 }
 .price-card__button {

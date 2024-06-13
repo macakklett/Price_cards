@@ -1,7 +1,7 @@
 <h1>Project #1 Startup website</h1>
 
 
-[Site Link](https://github.com/macakklett/Startup_website)
+[Site Link](https://macakklett.github.io/Price_cards/)
 
 Layout supports only desktop (up-to-1200) versions
 

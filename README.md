@@ -1,4 +1,4 @@
-<h1>Project #1 Startup website</h1>
+<h1>Project #2 Price Cards</h1>
 
 
 [Site Link](https://macakklett.github.io/Price_cards/)

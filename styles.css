@@ -15,18 +15,20 @@ ol {
 }
 
 body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
   padding: 0;
   margin: 0;
+  background-color: #141b1c;
 }
 
 .page {
   display: flex;
-  justify-content: center;
-  align-items: center;
   gap: 18px;
-  width: 100vw;
-  height: 100vh;
-  background-color: #141b1c;
+  width: 1176px;
 }
 
 .green {

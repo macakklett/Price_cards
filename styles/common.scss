@@ -1,0 +1,15 @@
+@import 'variables.scss';
+
+.color {
+  &_green {
+    background-color: $basic-card-color;
+  }
+
+  &_blue {
+    background-color: $business-card-color;
+  }
+
+  &_orange {
+    background-color: $webshop-card-color;
+  }
+}

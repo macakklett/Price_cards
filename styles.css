@@ -1,48 +1,3 @@
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: "Montserrat", sans-serif;
-  color: #ffffff;
-}
-
-ul,
-ol {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-  height: 100vh;
-  padding: 0;
-  margin: 0;
-  background-color: #141b1c;
-}
-
-.page {
-  display: flex;
-  gap: 18px;
-  width: 1176px;
-}
-
-.green {
-  background-color: #5bb189;
-}
-
-.blue {
-  background-color: #3a6ba5;
-}
-
-.orange {
-  background-color: #ec632a;
-}
-
 .price-card {
   position: relative;
   width: 380px;
@@ -102,7 +57,7 @@ body {
 .price-card__options-list {
   margin-bottom: 39px;
 }
-.price-card__options-list_item {
+.price-card__option {
   display: flex;
   align-items: center;
   width: 380px;
@@ -110,10 +65,7 @@ body {
   font-size: 15px;
   font-weight: 300;
 }
-.price-card__options-list_item img {
-  margin: 0 22px;
-}
-.price-card__options-list_item:nth-of-type(odd) {
+.price-card__option:nth-of-type(odd) {
   background-color: #2a3438;
 }
 .price-card__button {
@@ -130,6 +82,65 @@ body {
   color: #ffffff;
   cursor: pointer;
   text-transform: uppercase;
+}
+
+.checkmark {
+  height: 13px;
+  width: 15px;
+  display: inline-block;
+  margin: 0 22px;
+}
+.checkmark_green {
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png");
+}
+.checkmark_blue {
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png");
+}
+.checkmark_orange {
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png");
+}
+
+.color_green {
+  background-color: #5bb189;
+}
+.color_blue {
+  background-color: #3a6ba5;
+}
+.color_orange {
+  background-color: #ec632a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  background-color: #141b1c;
+}
+
+.page {
+  display: flex;
+  gap: 18px;
+  width: 1176px;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -75,19 +75,19 @@
   width: 154px;
   height: 40px;
   margin: 0 auto;
-  border-radius: 20px;
-  border: none;
   font-size: 14px;
   text-align: center;
   color: #ffffff;
   cursor: pointer;
   text-transform: uppercase;
+  border-radius: 20px;
+  border: none;
 }
 
 .checkmark {
+  display: inline-block;
   height: 13px;
   width: 15px;
-  display: inline-block;
   margin: 0 22px;
 }
 .checkmark_green {

@@ -10,19 +10,18 @@
   background-color: $main-card-color;
 
   &__badge {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     position: absolute;
     top: 30px;
     right: -30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 147px;
     height: 25px;
-
-    background-color: $badge-color;
     font-weight: 700;
     font-size: 14px;
     text-transform: uppercase;
+    background-color: $badge-color;
     transform: rotate(45deg);
   }
 

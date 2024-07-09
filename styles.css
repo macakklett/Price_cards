@@ -8,18 +8,18 @@
   background-color: #334247;
 }
 .price-card__badge {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: absolute;
   top: 30px;
   right: -30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 147px;
   height: 25px;
-  background-color: #dc3f45;
   font-weight: 700;
   font-size: 14px;
   text-transform: uppercase;
+  background-color: #dc3f45;
   transform: rotate(45deg);
 }
 .price-card__title {
